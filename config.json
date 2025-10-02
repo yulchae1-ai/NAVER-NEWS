@@ -1,0 +1,13 @@
+{
+  "date": "today",
+  "top_k": 3,
+  "sections": {
+    "politics": 100,
+    "economy": 101,
+    "society": 102,
+    "culture": 103,
+    "it_science": 105
+  },
+  "request_delay_sec": 0.8,
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+}

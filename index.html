@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Global News — Study Hub</title>
+    <meta name="description" content="Daily top global news picks by views — study-friendly layout." />
+    <link rel="preload" as="image" href="assets/tiger.jpg">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="hero">
+      <div class="overlay"></div>
+      <section class="content">
+        <h1>Top Global News by Views</h1>
+        <p>Read & study the world’s most-viewed stories each day.</p>
+        <a class="cta" href="#app">Enter</a>
+      </section>
+    </main>
+
+    <section id="app" class="section">
+      <h2>Today's Picks</h2>
+      <p class="muted">Click a category to load the top 3 articles (from JSON if available).</p>
+
+      <div class="controls">
+        <button data-cat="politics">Politics</button>
+        <button data-cat="economy">Economy</button>
+        <button data-cat="society">Society</button>
+        <button data-cat="culture">Life/Culture</button>
+        <button data-cat="it_science">IT/Science</button>
+      </div>
+
+      <div id="articles" class="grid"></div>
+      <div id="status" class="status"></div>
+    </section>
+
+    <footer class="footer">
+      <small>© 2025 Global News Study Hub</small>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
